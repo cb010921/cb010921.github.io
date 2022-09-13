@@ -1,0 +1,453 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+  }
+  /* Navigation */
+  
+  header {
+    padding: 10px;
+    background: #0c4d1b;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+  }
+  
+  .logo {
+    height: 75px;
+    border-radius: 5px;
+  }
+  
+  .nav-toggle {
+    display: none;
+  }
+  
+  .nav-toggle-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    margin: 0 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .nav-toggle-label span {
+    display: block;
+    margin: 3px 0;
+    background: white;
+    height: 3px;
+    width: 30px;
+    border-radius: 2px;
+    position: relative;
+  }
+  
+  nav {
+    position: absolute;
+    text-align: center;
+    line-height: 40px;
+    top: 100%;
+    left: 0;
+    background-image:url(images/donate3.jpg);
+    width: 100%;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-bottom: 1em;
+    margin-right: 1em;
+  }
+  
+  nav ul li a {
+    padding: 3px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 3px;
+    transition: 0.5s;
+  }
+  
+  nav ul li .active,
+  nav a:hover {
+    color: lightgreen;
+  }
+  
+  .nav-toggle:checked ~ nav {
+    transform: scale(1, 1);
+  }
+  
+  .nav-toggle:checked ~ nav a {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+  }
+  
+
+
+
+  .section1 {
+    width: 100%;
+    height: 550px;
+    margin-top: 1rem;
+}
+
+.section-2 {
+    width: 100%;
+    height: auto;
+}
+
+.section2 {
+    width: 100%;
+    height: 100%;
+}
+
+.heading {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: peachpuff;
+    font-size: 18px;
+}
+
+.heading:hover{
+  transform: translateY(-3px) scale(1.1);
+  transition: all 0.5s;
+  color: darkred;
+}
+
+.img {
+    width: auto;
+    height: 50%;
+
+
+    display: flex;
+    flex-direction:row;
+}
+
+.s1 {
+    flex: 1;
+    width: auto;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.img1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/merchandise.jpeg);
+}
+
+.img2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/merchandise1.jpeg);
+}
+
+.img3 {
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-image: url(images/merchandise2.jpeg);
+}
+
+
+
+
+
+.s1:hover {
+    transition: all 500ms ease-in-out;
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.028);
+    
+}
+
+
+.btn-view {
+  width: 100px;
+  height: 3.5rem;
+  background: none;
+  border: 2px solid rgb(255, 255, 255);
+  color: #38ff84;
+  font-size: 1rem;
+
+}
+
+.btn-view a{
+  text-decoration: none;
+  color: wheat;
+}
+.btn-view:hover {
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 2px rgba(206, 61, 189, 0);
+  color: #FFFFFF;
+  box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+  transform: translateY(-3px) scale(1.1);
+  transition: all 500ms;
+
+}
+
+
+.section3 {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  padding-top:50px ;
+   
+}
+
+
+
+.section3 h1{
+  font-size: 30px;
+  color: peachpuff;
+  text-align: center;
+}
+
+.section3 p{
+  color: black;
+}
+.section3 h1:hover{
+  transition: all 500ms ease-in-out;
+  transform: translateY(-2px) scale(1.028);
+  color: darkred;
+
+}
+
+
+
+
+
+
+
+
+.container{
+    display:flex ;
+    justify-content:center ;
+    align-items: center;
+    padding: 25px;
+    padding-bottom: 70px;
+    background-image: url(images/donate4.jpg);
+    
+}
+
+
+.container form{
+    padding: 20px;
+    width: 700px;
+    background: whitesmoke;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1) ;
+}
+
+
+.container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
+.container form .row .col{
+    flex: 1 1 250px;
+}
+
+
+.container form .row .col .title{
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+
+}
+
+.container form .row .col .inputbox{
+    margin: 15px 0;
+}
+
+
+.container form .row .col .inputbox span{
+    margin-bottom: 10px ;
+    display: block;
+}
+
+
+.container form .row .col .inputbox input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding:5px ;
+    font-size: 15px;
+    text-transform: none;
+
+}
+
+
+.container form .row .col .inputbox input:focus{
+    border:1px solid #000;
+}
+
+
+.container form .row .col .flex{
+    display: flex;
+    gap: 15px;
+}
+
+.container form .row .col .flex .inputbox{
+    margin-top: 5px;
+}
+
+
+.container form .row .col .inputbox img{
+    height: 34px;
+    margin-top: 5px;
+}
+
+
+.container form .submit-btn{
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: #27ae60;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+.container form .submit-btn:hover{
+    background: #2ecc71;
+}
+
+
+
+.l1{
+    width: 80%;
+    height: 3px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    margin-bottom: 90px;
+    background-color: black;
+}
+
+
+.l2{
+    width: 80%;
+    height: 3px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    background-color: black;
+}
+
+
+
+.dquot{
+    width: 30%;
+    margin: auto;
+    text-align: justify;
+    padding-top:50px ;
+    background-color: #C2F6CE;
+	height: 200px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.dquot4 {
+  width: 30%;
+  margin: auto;
+  text-align: justify;
+  background-color: #c2f6ce;
+}
+
+.dquot p {
+  font-size: 25px;
+  font-family: brush script mt;
+  text-align: center;
+  color: black;
+}
+
+.dquot:hover {
+  border: 1px solid black;
+  background: #017e34;
+  transition: 1s;
+}
+
+
+.copyfooter {
+    width: 100%;
+    background-color: #b7f5cf;
+    clear: left;
+    height: 50px;
+  }
+  .copyfooter p {
+    font-size: 14px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    background-color: #6dea9e;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    border-top-width: 2px;
+  }
+  
+  .copyfooter img {
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media only screen and (max-width: 600px) {
+    .section3{
+      padding: 40px;   
+  }
+
+  .copyfooter img{
+    height: 16px;
+
+  } 
+
+}
+  @media only screen and (min-width: 768px) {
+    .nav-toggle-label {
+      display: none;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav {
+      all: unset;
+      margin-top: 20px;
+    }
+    nav ul {
+      display: flex;
+    }
+    nav ul li .active,
+    nav a:hover {
+      background: lightgreen;
+      color: black;
+    }
+  }
+  
