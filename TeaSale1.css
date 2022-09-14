@@ -51,8 +51,7 @@
     line-height: 40px;
     top: 100%;
     left: 0;
-    background-image: linear-gradient(rgba(26, 78, 9, 0.7), rgba(14, 38, 6, 0.7)),
-      url(images/teasale1.jpg);
+    background-color: darkgreen;
     width: 100%;
     transform: scale(1, 0);
     transform-origin: top;
@@ -118,148 +117,6 @@
 }
 
 
-  .dilmah{
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    width: 60%;
-    margin:auto;
-}
-
-  .dilmah:hover{
-    transform: translateY(-3px) scale(1.1);
-    transition: all 0.5s;
-  }
-
-
-.dilmah img{
-    height: 250px;
-   
-}
-
-.dilmah h4{
-    margin: 0;
-    font-size: 30px;
-    color: whitesmoke;
-    text-shadow: 3px 3px 10px brown;
-}
-
-.dilmah p{
-    color: whitesmoke;
-    margin-right: 15px;
-    text-align: justify;
-}
-
-
-
-
-.ceylonta{
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
-  padding: 40px;
-  width: 60%;
-  margin:auto;
-  
-}
-
-
-.ceylonta:hover{
-  transform: translateY(-3px) scale(1.1);
-  transition: all 0.5s;
-}
-
-
-.ceylonta img{
-  height: 250px;
- 
-}
-
-.ceylonta h4{
-  margin: 0;
-  font-size: 30px;
-  color: whitesmoke;
-  text-shadow: 3px 3px 10px brown;
-
-}
-
-.ceylonta p{
-  color: whitesmoke;
-  margin-right: 15px;
-  text-align: justify;
-}
-
-
-
-
-.zesta{
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
-  padding: 40px;
-  width: 60%;
-  margin:auto;
-  
-}
-
-.zesta:hover{
-  transform: translateY(-3px) scale(1.1);
-  transition: all 0.5s;
-}
-
-.zesta img{
-  height: 250px;
-}
-
-.zesta h4{
-  margin: 0;
-  font-size: 30px;
-  color: whitesmoke;
-  text-shadow: 3px 3px 10px brown;
-
-}
-
-.zesta p{
-  color: whitesmoke;
-  margin-right: 15px;
-  text-align: justify;
-}
-
-
-
-.vintage{
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
-  padding: 40px;
-  width: 60%;
-  margin:auto;
-}
-
-.vintage:hover{
-  transform: translateY(-3px) scale(1.1);
-  transition: all 0.5s;
-}
-
-.vintage img{
-  height: 250px;
- 
-}
-
-.vintage h4{
-  margin: 0;
-  font-size: 30px;
-  color: whitesmoke;
-  text-shadow: 3px 3px 10px brown;
-
-}
-
-.vintage p{
-  color: whitesmoke;
-  margin-right: 15px;
-  text-align: justify;
-}
 
 .mof{
     text-align: justify;
@@ -271,6 +128,97 @@
        
     
 }
+
+
+
+
+.zst{
+  text-align: center;
+  color: #5D3624;
+  font-size: 50px;
+  text-shadow: 3px 3px 10px black;
+}
+
+.sts{
+  text-align: center;
+  color: #5D3624;
+  font-size: 50px;
+  text-shadow: 3px 3px 10px black;
+}
+
+
+.mls{
+  text-align: center;
+  color: #5D3624;
+  font-size: 50px;
+  text-shadow: 3px 3px 10px black;
+}
+
+
+.container{
+width: 100%;
+height: 100%;
+padding-top: 15px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-around;
+
+}
+
+.container .card{
+width: 270px;
+overflow: hidden;
+text-align: center;
+margin-bottom: 15px;
+border: 2px solid #392116;
+border-radius:15px;
+box-shadow: 0 0 7px rgba(0,0,0,0.8);
+}
+
+
+.container .card:hover{
+  transform: translateY(-3px) scale(1.1);
+  transition: all 0.5s;
+
+}
+
+.container .card .product-img{
+width: 250px;
+}
+
+.container .card .product-img img{
+width: 100%;
+}
+
+
+
+.container .card .product-infor{
+font-size: 18px;
+padding: 0 25px;
+margin-bottom: 10px;
+}
+
+.container .card .btn{
+width: 100%;
+}
+
+.container .btn:hover{
+color: black;
+}
+
+.container .card .btn button{
+width: 100%;
+padding: 10px;
+background: black;
+outline: none;
+border: 1px solid gray;
+color: white;
+font-size: 20px;
+cursor: pointer;
+border-radius: 0 0 15px 15px;
+}
+
 
 
 

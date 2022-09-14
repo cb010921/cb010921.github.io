@@ -51,8 +51,7 @@ nav {
   line-height: 40px;
   top: 100%;
   left: 0;
-  background-image: linear-gradient(rgba(26, 78, 9, 0.7), rgba(14, 38, 6, 0.7)),
-    url(images/teapic5.jpg);
+  background-color: darkgreen;
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
@@ -128,6 +127,7 @@ nav a:hover {
     text-align: justify;
     background-color: #c2f6ce;
     height: 250px;
+    border-radius: 0 0 15px 15px;
 }
 
 .TPsection h1{
@@ -189,6 +189,12 @@ nav a:hover {
 
 }
 
+.DTPpic1 img:hover{
+  transform: translateY(-3px) scale(1.1);
+  transition: all 0.5s;
+
+}
+
 .DTPpic2{
     margin: 5px;
     border: 1px solid #ccc;
@@ -201,6 +207,13 @@ nav a:hover {
 .DTPpic2 img{
     width: 350px;
     height: 250px;
+
+}
+
+
+.DTPpic2 img:hover{
+  transform: translateY(-3px) scale(1.1);
+  transition: all 0.5s;
 
 }
 
@@ -312,14 +325,15 @@ tr:hover td{
     .TPsection{
       width: 80%;
     }
+
     .TPsection h1{
-      font-size: 14px;
+      font-size: 17px;
     }
 
 
     .TPsection ol li{
       margin-left: 140px;
-      font-size: 11px;
+      font-size: 14px;
 
     }
 

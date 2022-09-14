@@ -51,8 +51,7 @@
     line-height: 40px;
     top: 100%;
     left: 0;
-    background-image: linear-gradient(rgba(26, 78, 9, 0.7), rgba(14, 38, 6, 0.7)),
-      url(images/teasale1.jpg);
+    background-color: darkgreen;
     width: 100%;
     transform: scale(1, 0);
     transform-origin: top;
@@ -182,10 +181,7 @@ input[name="r"]{
     text-shadow: 3px 3px 10px #0c4d1b;
 }
 
-.DTP:hover{
-  transform: translateY(-3px) scale(1.1);
-  transition: all 0.5s;
-}
+
 
 .RIY{
     text-align: center;
@@ -195,10 +191,7 @@ input[name="r"]{
 
 }
 
-.RIY:hover{
-  transform: translateY(-3px) scale(1.1);
-  transition: all 0.5s;
-}
+
 
 .watawala{
     text-align: center;
@@ -208,10 +201,7 @@ input[name="r"]{
 
 }
 
-.watawala:hover{
-  transform: translateY(-3px) scale(1.1);
-  transition: all 0.5s;
-}
+
 
 .vintage{
   text-align: center;
@@ -221,10 +211,7 @@ input[name="r"]{
 
 }
 
-.vintage:hover{
-  transform: translateY(-1px) scale(1.1);
-  transition: all 0.5s;
-}
+
 
 .ceylonta{
     text-align: center;
@@ -233,10 +220,7 @@ input[name="r"]{
     text-shadow: 3px 3px 10px #0c4d1b;
 }
 
-.ceylonta:hover{
-  transform: translateY(-3px) scale(1.1);
-  transition: all 0.5s;
-}
+
 
 
 .container{
@@ -258,6 +242,13 @@ input[name="r"]{
   border: 2px solid green;
   border-radius:15px;
   box-shadow: 0 0 7px rgba(0,0,0,0.8);
+}
+
+
+.container .card:hover{
+  transform: translateY(-3px) scale(1.1);
+  transition: all 0.5s;
+
 }
 
 .container .card .product-img{

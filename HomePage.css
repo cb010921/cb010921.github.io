@@ -51,8 +51,7 @@
     line-height: 40px;
     top: 100%;
     left: 0;
-    background-image: linear-gradient(rgba(26, 78, 9, 0.7), rgba(14, 38, 6, 0.7)),
-      url(images/teapic2.jpg);
+    background-color: darkgreen;
     width: 100%;
     transform: scale(1, 0);
     transform-origin: top;
@@ -247,6 +246,10 @@
     margin-right: auto;
   }
   @media only screen and (max-width: 600px) {
+    .header p{
+      text-align: justify;
+      padding: 40px;
+    }
     .section1{
       padding: 40px;
     }

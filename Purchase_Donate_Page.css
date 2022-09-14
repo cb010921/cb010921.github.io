@@ -51,7 +51,7 @@
     line-height: 40px;
     top: 100%;
     left: 0;
-    background-image:url(images/donate3.jpg);
+    background-color: darkgreen;
     width: 100%;
     transform: scale(1, 0);
     transform-origin: top;

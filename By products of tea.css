@@ -51,8 +51,7 @@
     line-height: 40px;
     top: 100%;
     left: 0;
-    background-image: linear-gradient(rgba(26, 78, 9, 0.7), rgba(14, 38, 6, 0.7)),
-      url(images/teasale1.jpg);
+    background-color: darkgreen;
     width: 100%;
     transform: scale(1, 0);
     transform-origin: top;
@@ -407,7 +406,7 @@
     }
     
     .soap3 img{
-        width: 100px;
+        width: 140px;
     }
 
     .Potpourri{
@@ -417,7 +416,7 @@
     }
 
     .Potpourri img{
-        width: 100px;
+        width: 140px;
     }
 
     .Paintings{
@@ -427,7 +426,7 @@
     }
 
     .Paintings img{
-        width: 100px;
+        width: 160px;
     }
 
     .teaoil{
@@ -437,7 +436,7 @@
     }
 
     .teaoil img{
-      width: 100px;
+      width: 150px;
     }
 
     .tquo{
